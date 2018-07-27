@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/layerCity" android:drawable="@drawable/amsterdam" android:gravity="bottom"/>
+    <item>
+        <shape >
+            <gradient android:startColor="#E13a094e"
+                android:centerColor="#E1732fa2"
+                android:endColor="#E1367dd5"
+                android:angle="90"/>
+
+        </shape>
+    </item>
+</layer-list>
