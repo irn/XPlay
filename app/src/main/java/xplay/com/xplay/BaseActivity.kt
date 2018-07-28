@@ -33,7 +33,8 @@ open class BaseActivity : AppCompatActivity(){
     }
 
     protected fun setCityDrawable(drawable : LayerDrawable, city : String){
-        drawable.setDrawableByLayerId(R.id.layerCity, resources.getDrawable(cities.getValue(city)))
+        val resourceId = if (cities.containsKey(city))  cities.getValue(city) else cities.getValue("London")
+        drawable.setDrawableByLayerId(R.id.layerCity, resources.getDrawable(resourceId))
     }
 
 }
