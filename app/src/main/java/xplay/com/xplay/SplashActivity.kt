@@ -23,7 +23,7 @@ class SplashActivity : BaseActivity() {
         const val CITY_ARG = "com.xplay.CITY_ARG"
     }
 
-    lateinit var currentCity : String
+    private var currentCity : String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

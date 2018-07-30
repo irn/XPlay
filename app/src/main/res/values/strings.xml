@@ -3,4 +3,7 @@
 
     <!-- Login screen -->
     <string name="sign_up_here">Do you have an account?&lt;br/> &lt;b>Sign up here&lt;/b></string>
+
+    <!-- Password Screen -->
+    <string name="forgot_password">Did you get your password?&lt;br/> &lt;b>Click here&lt;/b></string>
 </resources>
